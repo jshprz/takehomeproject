@@ -416,6 +416,15 @@ $('#addEmployee').click(() => {
                     $('#table_body tr').remove();
                     trHTML = ' ';
                     getEmployees();
+                    $('#add_firstname').val('');
+                    $('#add_lastname').val('');
+                    $('#add_middlename').val('')
+                    $('#add_sex').val('');
+                    $('#add_address').val('');
+                    $('#add_contact').val('');
+                    $('#add_salary').val('');
+                    $('#add_position').val('');
+                    $('#add_status').val('');
 
                 }
                 else

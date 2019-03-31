@@ -42,6 +42,9 @@
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
             "php artisan optimize"
+        ],
+        "post-install-cmd": [
+            "chmod -R 777 public/"
         ]
     },
     "config": {

@@ -172,6 +172,7 @@
         </div>
         <label for="edit_status">Status</label>
         <select id="edit_status" name="edit_status" class="form-control">
+        <option value="active">active</option>
         <option value="leave">leave</option>
         <option value="inactive">inactive</option>
         </select>

@@ -24,6 +24,7 @@ class CreateEmployeeTable extends Migration
             $table->string('employee_salary');
             $table->string('employee_position');
             $table->string('employee_status');
+            $table->softDeletes();
             $table->timestamps();
         });
     }

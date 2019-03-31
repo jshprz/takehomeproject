@@ -102,6 +102,7 @@
         </div>
         <label for="add_status">Status</label>
         <select id="add_status" name="add_status" class="form-control">
+        <option value="active">active</option>
         <option value="leave">leave</option>
         <option value="inactive">inactive</option>
         </select>

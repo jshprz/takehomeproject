@@ -215,7 +215,7 @@
         <button class="btn btn-danger" id="delete_yes">Yes</button>
         </div>
         <div class="col-md-6 text-left">
-        <button class="btn btn-primary" id="delete_no">No</button>
+        <button class="btn btn-primary" id="delete_no" data-dismiss="modal">No</button>
         </div>
       </div>
     </div>
